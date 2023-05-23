@@ -1,0 +1,265 @@
+
+/* Start Navbar Page */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #EEE;
+    color: black;
+}
+
+/* Style for the image brand */
+.brand-img {
+    width: 140px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Style for the links */
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 15px;
+}
+.nav-links a:hover {
+    color: red;
+}
+
+/* End Navbar Page */
+
+/* Start Login Page */
+.container{
+    width: 400px;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+input {
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+.name{
+    margin-bottom: 10px;
+}
+
+.password{
+    margin-bottom: 10px;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #CF3030;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+}
+
+button:hover {
+    background-color: #d11717;
+}
+
+/* End Login Page */
+
+/* Start Members Page */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-left: 3px solid red;
+    padding: 10px;
+}
+td{
+    background-color: #EEE;
+}
+
+th {
+    background-color: #ccc;
+
+}
+.new-member .btn {
+    width: 125px;
+}
+.posit{
+    position: relative;
+    margin-bottom: 20px;
+}
+.posit label{
+    position: absolute;
+    left: -80px;
+    top: 5px;
+}
+.container .btn{
+    width: 70px;
+}
+.del{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.member-image{
+    width: 50px;
+    height: 50px;
+}
+.image-member{
+    width: 50px;
+    height: 50px;
+}
+/* End Members Page */
+
+/* Start Dashboard Page */
+
+/* Styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Styles for the header element */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the main content area */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Styles for the dashboard widgets */
+.widget {
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.widget h1{
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.widget a{
+    text-decoration: none;
+    color: white;
+}
+/* Styles for the footer element */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.total-member{
+    background-color: #3498db;
+}
+.pending-member{
+    background-color: #c0392b;
+}
+.total-item{
+    background-color: #d35400;
+}
+.total-comment{
+    background-color: #8e44ad;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+
+}
+.dropdown div a{
+    padding-bottom: 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* End Dashboard Page */
+
+/* Start Profile Page */
+
+header {
+    background-color: #adb5bd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* End Profile Page */

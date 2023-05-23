@@ -1,0 +1,509 @@
+* {
+    height: fit-content;
+}
+
+/* Start Order Page Styles*/
+.container label::after{
+    content: "*";
+    color: red;
+    position: absolute;
+    right: 10px;
+}
+.container label{
+    position: relative;
+}
+.container .order-details{
+    font-weight: bold;
+}
+.container .cash{
+    padding: 10px 10px 1px 10px;
+    background-color: #e7e0e0;
+    width: fit-content;
+    position: relative;
+}
+.container .cash::after{
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #e7e0e0;
+    top: -18px;
+    left: 20px;
+}
+.order-confirm{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.order-confirm input{
+    background-color: #CF3030;
+    color: white;
+    
+    
+}
+/* End Order Page Styles*/
+
+/* Start HomePage Styles*/
+
+.home-img{
+    width: 92%;
+    height: 750px;
+    background-color: #D9D9D8;
+    margin-left: 50px;
+
+}
+.home-img .first{
+    width: 50%;
+    height: 100%;
+
+}
+
+/* End HomePage Styles*/
+
+/* Start Card Styles*/
+.home img {
+    height: 100px;
+    width: 200px;
+}
+
+.parent {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.parent .card {
+    height: 350px;
+    width: 18rem;
+    position: relative;
+}
+
+.buy {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #CF3030;
+    border-radius: 7%;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+}
+
+.buy .btn {
+    color: white;
+}
+
+.parent .card .date {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.parent .card .price {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: #EEE;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #645d5d;
+
+}
+.qty{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.colors{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.color {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.black {
+    color: black;
+    background-color: black;
+}
+
+.white {
+    color: white;
+    background-color: white;
+}
+
+.blue {
+    color: blue;
+    background-color: blue;
+}
+.size {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.m {
+    color: #555;
+    background-color: #f5f5f5;
+}
+
+.l {
+    color: #555;
+    background-color: #e5e5e5;
+}
+
+.xl {
+    color: #555;
+    background-color: #d5d5d5;
+}
+
+.xxl {
+    color: #555;
+    background-color: #c5c5c5;
+}
+.proceed{
+    color: white;
+    text-decoration: none;
+    background-color: #CF3030;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proceed:hover{
+    background-color: white;
+    color: #333 ;
+}
+/* End Card Styles*/
+
+/* Start Info Item Page*/
+
+.info-item {
+    height: 370px;
+}
+.container ul a button{
+    width: 120px;
+    margin-top: 20px;
+}
+.container ul a{
+    text-decoration: none;
+    color: white;
+}
+/* End Info Item Styles*/
+
+/* Start Sign Up Page*/
+
+.signform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.signform input {
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* End Sign Up Page*/
+
+/* Start Navbar Page */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #EEE;
+    color: black;
+}
+
+/* Style for the image brand */
+.brand-img {
+    width: 140px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Style for the links */
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+/* End Navbar Page */
+
+/* Start Login Page */
+.container {
+    width: 400px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.password {
+    margin-bottom: 10px;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #CF3030;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+}
+
+button:hover {
+    background-color: #d11717;
+}
+
+/* End Login Page */
+
+/* Start Members Page */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border-left: 3px solid red;
+    padding: 10px;
+}
+
+td {
+    background-color: #EEE;
+}
+
+th {
+    background-color: #ccc;
+
+}
+
+.new-member .btn {
+    width: 125px;
+}
+
+.posit {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.posit label {
+    position: absolute;
+    left: -80px;
+    top: 5px;
+}
+
+.container .btn {
+    width: 70px;
+}
+
+.del {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.member-image {
+    width: 50px;
+    height: 50px;
+}
+
+.image-member {
+    width: 50px;
+    height: 50px;
+}
+
+/* End Members Page */
+
+/* Start Dashboard Page */
+
+/* Styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Styles for the header element */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the main content area */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Styles for the dashboard widgets */
+.widget {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.widget h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.widget a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styles for the footer element */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.total-member {
+    background-color: #3498db;
+}
+
+.pending-member {
+    background-color: #c0392b;
+}
+
+.total-item {
+    background-color: #d35400;
+}
+
+.total-comment {
+    background-color: #8e44ad;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+
+}
+
+.dropdown div a {
+    padding-bottom: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* End Dashboard Page */
+
+/* Start Profile Page */
+
+header {
+    background-color: #adb5bd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* End Profile Page */
